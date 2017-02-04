@@ -1,0 +1,12 @@
+var employee = [];
+employee["empname"]="Oceanic";
+employee["empage"]="30";
+employee["empsalary"]="30000";
+address=[];
+address["city"]="Bangalore";
+address["state"]="Karnataka";
+address["pincode"]="560068";						
+console.log("The name is:="+ employee['empname'] + ", age  is "+ employee['empage'] +", Salary is " + employee['empsalary'] );
+console.log("Address city:="+ address.city);
+console.log("state:="+ address.state);
+console.log("pincode:="+ address.pincode);
